@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora JavaScript</h1>
+    <p>Operação de Adição</p>
+    <p><span id="var_a"></span> + <span id="var_b"></span> = <span id="resultado"></span></p>
+    <!-- Início do JavaScript -->
+    <script>
+        /* Declaração das variáveis */
+        var soma = 0;
+        var a = 250;
+        var b = 120;
+        /* Operação de Adição */
+        soma = a + b;
+        /* Atribuição para aparecer no <html> */
+        document.getElementById("var_a").textContent = a;
+        document.getElementById("var_b").textContent = b;
+        document.getElementById("resultado").textContent = soma;
+    </script>
+    <!-- Fim do JavaScript -->
+
+</body>
+
+</html>
